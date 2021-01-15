@@ -10,7 +10,7 @@ class ButtonSportart extends StatelessWidget {
     return Column(
       children: [
         Container(
-          margin: EdgeInsets.only(top: 5, bottom: 5),
+          margin: EdgeInsets.only(top: 8, bottom: 8),
           width: 260,
           child: RaisedButton(
             onPressed: () {},
