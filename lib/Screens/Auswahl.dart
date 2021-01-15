@@ -20,11 +20,11 @@ class Auswahl extends StatelessWidget {
                     'Ich bin:',
                     style: TextStyle(
                       fontSize: 25,
-                      fontWeight: FontWeight.bold,
+                      //fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(
-                    width: 280,
+                    width: 260,
                     child: RaisedButton(
                       onPressed: () {},
                       child: Text(
@@ -39,7 +39,7 @@ class Auswahl extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    width: 280,
+                    width: 260,
                     child: RaisedButton(
                       onPressed: () {},
                       child: Text(
@@ -57,7 +57,7 @@ class Auswahl extends StatelessWidget {
                     ),
                   ),
                   SizedBox(
-                    width: 280,
+                    width: 260,
                     child: RaisedButton(
                       onPressed: () {},
                       child: Text(

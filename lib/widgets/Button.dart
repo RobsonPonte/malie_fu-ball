@@ -1,33 +1,35 @@
 import 'package:flutter/material.dart';
 
-class ButtonOne {
-  String name;
-  Color color;
+// Auswahl der Sportart
+class ButtonSportart extends StatelessWidget {
+/*   String bezeichnungButton;
+  ButtonSportart(this.bezeichnungButton) */
 
-  ButtonOne({this.name, this.color});
-}
-
-class ButtonOneDesign extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: 280,
-      child: RaisedButton(
-        onPressed: () {},
-        //Funktion button muss noch implementiert werden
-        child: Text(
-          'club',
-          style: TextStyle(
+    return Column(
+      children: [
+        Container(
+          width: 260,
+          child: RaisedButton(
+            onPressed: () {},
+            child: Text(
+              'spieler',
+              style:
+                  TextStyle(color: Theme.of(context).accentColor, fontSize: 25),
+            ),
             color: Colors.white,
-            fontSize: 25,
+            elevation: 10,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20.0),
+              side: BorderSide(
+                width: 1.5,
+                color: Theme.of(context).accentColor,
+              ),
+            ),
           ),
         ),
-        color: Color.fromRGBO(12, 160, 183, 1),
-        elevation: 10.0,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(30),
-        ),
-      ),
+      ],
     );
   }
 }

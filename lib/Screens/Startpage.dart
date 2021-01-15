@@ -20,7 +20,7 @@ class Startpage extends StatelessWidget {
           Text(
             'connects atheltes, staff and clubs',
             style: TextStyle(
-              fontSize: 25,
+              fontSize: 30,
               color: Colors.white,
             ),
             textAlign: TextAlign.center,
