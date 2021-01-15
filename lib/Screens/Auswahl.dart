@@ -44,7 +44,10 @@ class Auswahl extends StatelessWidget {
                       onPressed: () {},
                       child: Text(
                         'verein',
-                        style: TextStyle(color: Colors.white, fontSize: 25),
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontFamily: 'Berlin Sans FB'),
                       ),
                       color: Color.fromRGBO(12, 160, 183, 1),
                       elevation: 10,

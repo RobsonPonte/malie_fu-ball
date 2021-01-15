@@ -4,7 +4,7 @@ class Startpage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(91, 154, 193, 1),
+      backgroundColor: Theme.of(context).primaryColor,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,

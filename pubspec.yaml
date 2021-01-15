@@ -68,6 +68,10 @@ flutter:
       fonts:
        - asset: fonts/segoesc.ttf
          weight: 700
+    - family: Berlin Sans FB
+      fonts:
+       - asset: fonts/Berlin Sans FB Regular.ttf
+         weight: 700
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:malie/Screens/Auswahl.dart';
+import 'package:malie/Screens/Startpage.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,6 +10,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'malie',
+      theme: ThemeData(
+        primaryColor: Color.fromRGBO(91, 154, 193, 1), //Blau
+        accentColor: Color.fromRGBO(8, 86, 133, 1), //Dunkelblau
+        buttonColor: Color.fromRGBO(8, 86, 133, 1),
+      ),
       home: Auswahl(),
     );
   }
