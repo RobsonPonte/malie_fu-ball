@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Screens/Auswahl.dart';
-import 'package:malie/Screens/Startpage.dart';
-import 'package:malie/widgets/Button.dart';
+import 'package:malie/Screens/Sporart.dart';
 
 void main() => runApp(MyApp());
 
@@ -17,7 +15,7 @@ class MyApp extends StatelessWidget {
         //buttonColor: Color.fromRGBO(8, 86, 133, 1),
         fontFamily: 'Berlin Sans FB',
       ),
-      home: Startpage(),
+      home: Sportart(),
     );
   }
 }

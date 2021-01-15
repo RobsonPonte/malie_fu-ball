@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 // Auswahl der Sportart
 class ButtonSportart extends StatelessWidget {
-/*   String bezeichnungButton;
-  ButtonSportart(this.bezeichnungButton) */
+  final String bezeichnungButton;
+  ButtonSportart(this.bezeichnungButton);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +14,7 @@ class ButtonSportart extends StatelessWidget {
           child: RaisedButton(
             onPressed: () {},
             child: Text(
-              'spieler',
+              bezeichnungButton,
               style:
                   TextStyle(color: Theme.of(context).accentColor, fontSize: 25),
             ),
