@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Screens/SelctionPage.dart';
-import 'package:malie/widgets/BasisSeite.dart';
-
-import 'Screens/Startpage.dart';
+import 'package:malie/Screens/Auswahl.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'malie',
-      home: SelectionPage(),
+      home: Auswahl(),
     );
   }
 }

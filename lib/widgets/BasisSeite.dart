@@ -7,8 +7,8 @@ class BasisSeite extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.center,
-      margin: EdgeInsets.only(top: 30),
-      height: 220,
+      margin: EdgeInsets.only(top: 40),
+      height: 230,
       child: Image.asset(
         'images/logo_schrift.png',
         fit: BoxFit.cover,
