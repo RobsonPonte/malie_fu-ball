@@ -1,9 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:malie/Screens/Auswahl.dart';
 
 class Startseite extends StatelessWidget {
   //Button "Letsgo"
-  void letsgo() {
-    print('Lets go gedrückt'); //Funktion weiter hinzufügen
+  void letsgo(BuildContext ctx) {
+    Navigator.of(ctx).push(
+      MaterialPageRoute(
+        builder: (_) {
+          return Auswahl();
+        },
+      ),
+    ); //Funktion weiter hinzufügen
   }
 
   @override
@@ -40,8 +47,8 @@ class Startseite extends StatelessWidget {
             ),
           ),
           RaisedButton(
-            onPressed: letsgo,
-            //Funktion button muss noch implementiert werden
+            onPressed: () => letsgo(context),
+            //Seite muss final noch angepasst werden (Anmeldung)
             child: Text(
               'let´s go',
               style: TextStyle(
