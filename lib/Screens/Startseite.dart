@@ -10,7 +10,7 @@ class Startseite extends StatelessWidget {
           return Auswahl();
         },
       ),
-    ); //Funktion weiter hinzufügen
+    );
   }
 
   @override
