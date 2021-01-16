@@ -6,13 +6,7 @@ import 'package:malie/widgets/BasisSeite.dart';
 
 class Auswahl extends StatelessWidget {
   void buttonSportart(BuildContext ctx) {
-    Navigator.of(ctx).push(
-      MaterialPageRoute(
-        builder: (_) {
-          return Sportart();
-        },
-      ),
-    );
+    Navigator.of(ctx).pushNamed('/Sportart');
   }
 
   @override

@@ -4,13 +4,7 @@ import 'package:malie/Screens/Auswahl.dart';
 class Startseite extends StatelessWidget {
   //Button "Letsgo"
   void letsgo(BuildContext ctx) {
-    Navigator.of(ctx).push(
-      MaterialPageRoute(
-        builder: (_) {
-          return Auswahl();
-        },
-      ),
-    );
+    Navigator.of(ctx).pushNamed('/Auswahl');
   }
 
   @override
