@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Startpage extends StatelessWidget {
+class Startseite extends StatelessWidget {
+  //Button "Letsgo"
+  void letsgo() {
+    print('Lets go gedrückt'); //Funktion weiter hinzufügen
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -9,7 +14,9 @@ class Startpage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
-          Container(height: 10),
+          Container(
+              height:
+                  10), //Evtl noch anpassen ohne Container als Abstand nach oben
           Container(
             height: 200,
             child: Image.asset(
@@ -33,7 +40,7 @@ class Startpage extends StatelessWidget {
             ),
           ),
           RaisedButton(
-            onPressed: () {},
+            onPressed: letsgo,
             //Funktion button muss noch implementiert werden
             child: Text(
               'let´s go',
