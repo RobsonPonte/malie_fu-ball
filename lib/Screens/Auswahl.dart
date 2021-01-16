@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:malie/Screens/Sportart.dart';
 import 'package:malie/widgets/BasisSeite.dart';
 
 // Auswahl Spieler, Club, Personal
 
 class Auswahl extends StatelessWidget {
+  void buttonSportart(BuildContext ctx) {
+    Navigator.of(ctx).push(
+      MaterialPageRoute(
+        builder: (_) {
+          return Sportart();
+        },
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,7 +37,7 @@ class Auswahl extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () {},
+                      onPressed: () => buttonSportart(context),
                       child: Text(
                         'spieler',
                         style: TextStyle(color: Colors.white, fontSize: 25),
@@ -41,7 +52,7 @@ class Auswahl extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () {},
+                      onPressed: () => buttonSportart(context),
                       child: Text(
                         'verein',
                         style: TextStyle(
@@ -59,7 +70,7 @@ class Auswahl extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () {},
+                      onPressed: () => buttonSportart(context),
                       child: Text(
                         'personal',
                         style: TextStyle(color: Colors.white, fontSize: 25),
