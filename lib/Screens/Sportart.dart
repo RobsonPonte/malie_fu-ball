@@ -7,7 +7,7 @@ class Sportart extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      //Scrollt aktuell noch in die Satutsleiste vom Handy
+      //Scrollt aktuell noch in die Stautsleiste vom Handy
       body: Container(
         child: ListView(
           children: [
