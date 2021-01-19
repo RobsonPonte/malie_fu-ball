@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+// Icon ohne Text; oder eigene Icon verwenden
+// Zuordnung zu einer Seite
+
 class BottomBar extends StatefulWidget {
   @override
   _BottomBarState createState() => _BottomBarState();
@@ -14,7 +17,7 @@ class _BottomBarState extends State<BottomBar> {
       appBar: AppBar(),
       body: Container(),
       bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Theme.of(context).primaryColor,
+        selectedItemColor: Color.fromRGBO(14, 209, 149, 1),
         unselectedItemColor: Colors.grey[400],
         currentIndex: currentIndex,
         onTap: (value) {
@@ -24,12 +27,10 @@ class _BottomBarState extends State<BottomBar> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.local_offer),
-            backgroundColor: Colors.blue,
             title: Text('home'), //title evtl. noch durch label ersetzen
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            backgroundColor: Colors.blue,
             title: Text('home'),
           ),
           BottomNavigationBarItem(
