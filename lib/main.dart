@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         //buttonColor: Color.fromRGBO(8, 86, 133, 1),
         fontFamily: 'Berlin Sans FB',
       ),
-      home: MainBars(),
+      home: Auswahl(),
       routes: {
         '/Auswahl': (ctx) => Auswahl(),
         '/Sportart': (ctx) => Sportart(),

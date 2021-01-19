@@ -34,7 +34,10 @@ class Auswahl extends StatelessWidget {
                       onPressed: () => buttonSportart(context),
                       child: Text(
                         'spieler',
-                        style: TextStyle(color: Colors.white, fontSize: 25),
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25,
+                        ),
                       ),
                       color: Color.fromRGBO(14, 209, 149, 1),
                       elevation: 10,
@@ -50,9 +53,9 @@ class Auswahl extends StatelessWidget {
                       child: Text(
                         'verein',
                         style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25,
-                            fontFamily: 'Berlin Sans FB'),
+                          color: Colors.white,
+                          fontSize: 25,
+                        ),
                       ),
                       color: Color.fromRGBO(12, 160, 183, 1),
                       elevation: 10,
@@ -67,7 +70,10 @@ class Auswahl extends StatelessWidget {
                       onPressed: () => buttonSportart(context),
                       child: Text(
                         'personal',
-                        style: TextStyle(color: Colors.white, fontSize: 25),
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 25,
+                        ),
                       ),
                       color: Color.fromRGBO(8, 86, 133, 1),
                       elevation: 10,
