@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-class HauptAppBar extends StatelessWidget {
+//Images müssen noch als Button deklariert werden
+
+class MainAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -9,12 +11,11 @@ class HauptAppBar extends StatelessWidget {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Container(
-              child: Image.asset(
-                'images/User.png',
-                fit: BoxFit.cover,
-                height: 42,
-              ),
+            IconButton(
+              icon: Icon(Icons.person),
+              onPressed: () {},
+              color: Colors.grey[400],
+              iconSize: 40,
             ),
             Text(
               'malie',
@@ -24,13 +25,12 @@ class HauptAppBar extends StatelessWidget {
                 fontFamily: 'Segoesc',
               ),
             ),
-            Container(
-              child: Image.asset(
-                'images/Einstellungen.png',
-                fit: BoxFit.cover,
-                height: 38,
-              ),
-            )
+            IconButton(
+              icon: Icon(Icons.settings),
+              onPressed: () {},
+              color: Colors.grey[400],
+              iconSize: 38,
+            ),
           ],
         ),
       ),
