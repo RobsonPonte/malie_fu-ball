@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-//Navigation Button fehlt noch
+// Navigation Icon zu Seiten fehlt noch
 // Icon NavBar ohne Text; oder eigene Icon verwenden
+// AppBar selceted color fehlt noch
 
 class MainBars extends StatefulWidget {
   @override
