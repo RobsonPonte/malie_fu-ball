@@ -25,7 +25,7 @@ class _BottomBarState extends State<BottomBar> {
           BottomNavigationBarItem(
             icon: Icon(Icons.local_offer),
             backgroundColor: Colors.blue,
-            title: Text('home'),
+            title: Text('home'), //title evtl. noch durch label ersetzen
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
