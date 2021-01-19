@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//Images müssen noch als Button deklariert werden
+//Navigation Button fehlt noch
 
 class MainAppBar extends StatelessWidget {
   @override
