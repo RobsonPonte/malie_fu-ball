@@ -20,7 +20,7 @@ class BasisSeitePos extends StatelessWidget {
         children: [
           Container(
             height: 80,
-            margin: EdgeInsets.only(top: 35, right: 15, left: 15),
+            margin: EdgeInsets.only(top: 35, right: 20, left: 20),
             child: Row(
               children: [
                 Container(
@@ -54,7 +54,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             alignment: Alignment.topLeft,
-            margin: EdgeInsets.only(top: 20, right: 15, left: 15, bottom: 8),
+            margin: EdgeInsets.only(top: 20, right: 20, left: 20, bottom: 8),
             //color: Colors.red,
             child: Text(
               'hauptposition:',
@@ -63,7 +63,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             //color: Colors.red,
-            margin: EdgeInsets.only(left: 15, right: 15),
+            margin: EdgeInsets.only(left: 20, right: 20),
             child: Column(
               children: [
                 Row(
@@ -98,7 +98,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             alignment: Alignment.topLeft,
-            margin: EdgeInsets.only(top: 8, right: 15, left: 15, bottom: 8),
+            margin: EdgeInsets.only(top: 8, right: 20, left: 20, bottom: 8),
             //color: Colors.red,
             child: Text(
               'nebenposition (max. 2):',
@@ -107,7 +107,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             //color: Colors.red,
-            margin: EdgeInsets.only(left: 15, right: 15),
+            margin: EdgeInsets.only(left: 20, right: 20),
             child: Column(
               children: [
                 Row(
