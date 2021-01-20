@@ -4,7 +4,7 @@ import 'package:malie/widgets/BasisSeite.dart';
 
 // Auswahl Spieler, Club, Personal
 
-class Auswahl extends StatelessWidget {
+class AuswahlScreen extends StatelessWidget {
   void buttonSportart(BuildContext ctx) {
     Navigator.of(ctx).pushNamed('/Sportart');
   }

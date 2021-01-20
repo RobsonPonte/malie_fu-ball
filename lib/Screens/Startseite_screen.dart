@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 
-class Startseite extends StatelessWidget {
+class StartseiteScreen extends StatelessWidget {
   //Button "Letsgo"
   void letsgo(BuildContext ctx) {
     Navigator.of(ctx).pushNamed('/Auswahl');

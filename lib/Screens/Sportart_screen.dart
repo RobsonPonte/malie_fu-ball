@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:malie/widgets/BasisSeite.dart';
 import 'package:malie/widgets/Button.dart';
 
-class Sportart extends StatelessWidget {
+class SportartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
