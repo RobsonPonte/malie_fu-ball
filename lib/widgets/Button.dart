@@ -46,21 +46,21 @@ class ButtonPosFussball extends StatelessWidget {
     return Column(
       children: [
         Container(
-          margin: EdgeInsets.only(top: 8, bottom: 8),
-          width: 100,
-          height: 100,
+          margin: EdgeInsets.only(top: 5, bottom: 5, right: 0),
+          width: 60,
+          height: 40,
           child: RaisedButton(
-            onPressed: () {},
+            onPressed: () {}, //Funktion "Speichern" fehlt noch
             child: Text(
               titel,
-              style: TextStyle(color: color, fontSize: 25),
+              style: TextStyle(color: color, fontSize: 15),
             ),
-            color: color,
+            color: Colors.white,
             elevation: 10,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20.0),
+              borderRadius: BorderRadius.circular(15.0),
               side: BorderSide(
-                width: 1.5,
+                width: 2,
                 color: color,
               ),
             ),
