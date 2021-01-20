@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 //Für Auswahl der Positionen
 class BasisSeitePos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+/*       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text('malie',
             style: TextStyle(
@@ -13,39 +14,64 @@ class BasisSeitePos extends StatelessWidget {
               fontSize: 25,
               fontFamily: 'Segoesc',
             )),
-      ),
-      body: Container(
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              margin: EdgeInsets.all(15),
-              height: 80,
-              child: Row(
-                children: [
-                  Image.asset(
+      ), */
+      body: Column(
+        children: [
+          Container(
+            height: 100,
+            margin: EdgeInsets.only(top: 35, right: 15, left: 15),
+            child: Row(
+              children: [
+                Container(
+                  color: Colors.amber, //nur zum testen
+                  margin: EdgeInsets.only(right: 25),
+                  child: Image.asset(
                     'images/logo.png',
+                    alignment: Alignment.bottomLeft, //Funktioniert nicht
                     fit: BoxFit.cover,
                   ),
-                  Container(
-                    margin: EdgeInsets.only(left: 25, top: 30),
-                    padding: EdgeInsets.only(right: 100),
-                    child: Text(
-                      'fussball:',
-                      style: TextStyle(fontSize: 25),
-                    ),
+                ),
+                Expanded(
+                  child: Container(
                     decoration: BoxDecoration(
                       border: Border(
                         bottom: BorderSide(
-                            width: 2, color: Theme.of(context).primaryColor),
+                            color: Theme.of(context).primaryColor, width: 3),
+                      ),
+                    ),
+                    child: Align(
+                      alignment: Alignment.bottomLeft,
+                      child: Text(
+                        'fussball:',
+                        style: TextStyle(fontSize: 25),
                       ),
                     ),
                   ),
-                ],
-              ),
+                ),
+              ],
             ),
-          ],
-        ),
+          ),
+          Container(
+            alignment: Alignment.topLeft,
+            margin: EdgeInsets.only(top: 40, right: 15, left: 15),
+            color: Colors.red,
+            child: Text(
+              'hauptposition:',
+              style: TextStyle(fontSize: 25),
+            ),
+          ),
+          Container(),
+          Container(
+            alignment: Alignment.topLeft,
+            margin: EdgeInsets.only(top: 40, right: 15, left: 15),
+            color: Colors.red,
+            child: Text(
+              'nebenposition:',
+              style: TextStyle(fontSize: 25),
+            ),
+          ),
+          Container(),
+        ],
       ),
     );
   }

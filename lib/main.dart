@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'malie',
       theme: ThemeData(
-        primaryColor: Color.fromRGBO(91, 154, 193, 1), //Blau
+        primaryColor: Color.fromRGBO(91, 154, 193, 1), //Blau (logo)
         accentColor: Color.fromRGBO(8, 86, 133, 1), //Dunkelblau
         //buttonColor: Color.fromRGBO(8, 86, 133, 1),
         fontFamily: 'Berlin Sans FB',
