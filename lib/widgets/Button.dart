@@ -20,6 +20,7 @@ class ButtonSportart extends StatelessWidget {
                   TextStyle(color: Theme.of(context).accentColor, fontSize: 25),
             ),
             color: Colors.white,
+            splashColor: Theme.of(context).accentColor,
             elevation: 10,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20.0),
@@ -34,6 +35,8 @@ class ButtonSportart extends StatelessWidget {
     );
   }
 }
+
+// Button Für die Positionen Fußball
 
 class ButtonPosFussball extends StatelessWidget {
   final String titel;
@@ -51,6 +54,8 @@ class ButtonPosFussball extends StatelessWidget {
           height: 40,
           child: RaisedButton(
             onPressed: () {}, //Funktion "Speichern" fehlt noch
+            disabledColor: Colors.white,
+            splashColor: color,
             child: Text(
               titel,
               style: TextStyle(color: color, fontSize: 15),

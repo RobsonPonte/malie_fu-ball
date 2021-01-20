@@ -4,7 +4,7 @@ import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/widgets/BasisSeite.dart';
 import 'package:malie/widgets/MainBars.dart';
 
-import 'Positionen/Basis_screen_Pos.dart';
+import 'Screens/Basis_screen_Pos.dart';
 
 void main() => runApp(MyApp());
 
