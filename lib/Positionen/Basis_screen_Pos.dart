@@ -20,11 +20,11 @@ class BasisSeitePos extends StatelessWidget {
         children: [
           Container(
             height: 80,
-            margin: EdgeInsets.only(top: 35, right: 20, left: 20),
+            margin: EdgeInsets.only(top: 35, right: 25, left: 20),
             child: Row(
               children: [
                 Container(
-                  //color: Colors.amber, //nur zum testen
+                  color: Colors.amber, //nur zum testen
                   margin: EdgeInsets.only(right: 25),
                   child: Image.asset(
                     'images/logo.png',
@@ -54,7 +54,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             alignment: Alignment.topLeft,
-            margin: EdgeInsets.only(top: 20, right: 20, left: 20, bottom: 8),
+            margin: EdgeInsets.only(top: 20, right: 25, left: 20, bottom: 8),
             //color: Colors.red,
             child: Text(
               'hauptposition:',
@@ -63,7 +63,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             //color: Colors.red,
-            margin: EdgeInsets.only(left: 20, right: 20),
+            margin: EdgeInsets.only(left: 20, right: 25),
             child: Column(
               children: [
                 Row(
@@ -98,7 +98,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             alignment: Alignment.topLeft,
-            margin: EdgeInsets.only(top: 8, right: 20, left: 20, bottom: 8),
+            margin: EdgeInsets.only(top: 8, right: 25, left: 20, bottom: 8),
             //color: Colors.red,
             child: Text(
               'nebenposition (max. 2):',
@@ -107,7 +107,7 @@ class BasisSeitePos extends StatelessWidget {
           ),
           Container(
             //color: Colors.red,
-            margin: EdgeInsets.only(left: 20, right: 20),
+            margin: EdgeInsets.only(left: 20, right: 25),
             child: Column(
               children: [
                 Row(
