@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Screens/Sportart.dart';
+import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/widgets/BasisSeite.dart';
 
 // Auswahl Spieler, Club, Personal

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Screens/Auswahl.dart';
-import 'package:malie/Screens/Sportart.dart';
+import 'package:malie/Screens/Auswahl_screen.dart';
+import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/widgets/MainBars.dart';
 
 void main() => runApp(MyApp());
