@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:malie/Positionen/Fussball.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/widgets/BasisSeite.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         //buttonColor: Color.fromRGBO(8, 86, 133, 1),
         fontFamily: 'Berlin Sans FB',
       ),
-      home: BasisSeitePos(),
+      home: Fussballtest(),
       routes: {
         '/Auswahl': (ctx) => AuswahlScreen(),
         '/Sportart': (ctx) => SportartScreen(),
