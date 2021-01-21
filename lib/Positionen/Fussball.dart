@@ -13,6 +13,12 @@ class Fussballtest extends StatelessWidget {
         backgroundColor: Colors.white,
         title: Row(
           children: [
+            Container(
+              margin: EdgeInsets.only(right: 15),
+              height: 45,
+              width: 45,
+              child: Image.asset('images/logo.png'),
+            ),
             Text(
               'fussball',
               style: TextStyle(
