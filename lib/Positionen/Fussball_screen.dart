@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:malie/Data/fussball_data.dart';
 import 'package:malie/widgets/category_item.dart';
-import 'package:malie/widgets/dummy_data.dart';
 
 //Für Auswahl der Positionen
 
-class Fussballtest extends StatelessWidget {
+class PositionFussball extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

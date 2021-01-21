@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:malie/models/category.dart';
 
+// 1.Fußball
 const DUMMY_CATEGORIES = const [
   Category(
     id: 'c1',
