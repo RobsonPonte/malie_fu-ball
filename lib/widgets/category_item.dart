@@ -12,7 +12,10 @@ class CategoryItem extends StatelessWidget {
       child: Center(
         child: Text(
           title,
-          style: TextStyle(fontSize: 20),
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.white,
+          ),
           textAlign: TextAlign.center,
         ),
       ),
