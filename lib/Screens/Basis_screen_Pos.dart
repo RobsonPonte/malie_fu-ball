@@ -7,18 +7,10 @@ class BasisSeitePos extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-/*       appBar: AppBar(
-        backgroundColor: Colors.white,
-        title: Text('malie',
-            style: TextStyle(
-              color: Theme.of(context).primaryColor,
-              fontSize: 25,
-              fontFamily: 'Segoesc',
-            )),
-      ), */
       body: Column(
         children: [
           Container(
+            color: Colors.red,
             height: 80,
             margin: EdgeInsets.only(top: 35, right: 25, left: 20),
             child: Row(
@@ -28,7 +20,6 @@ class BasisSeitePos extends StatelessWidget {
                   margin: EdgeInsets.only(right: 25),
                   child: Image.asset(
                     'images/logo.png',
-                    alignment: Alignment.bottomLeft, //Funktioniert nicht
                     fit: BoxFit.cover,
                   ),
                 ),
