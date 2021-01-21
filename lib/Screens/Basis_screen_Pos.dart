@@ -10,13 +10,13 @@ class BasisSeitePos extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            color: Colors.red,
+            //color: Colors.red,
             height: 80,
             margin: EdgeInsets.only(top: 35, right: 25, left: 20),
             child: Row(
               children: [
                 Container(
-                  color: Colors.amber, //nur zum testen
+                  //color: Colors.amber, //nur zum testen
                   margin: EdgeInsets.only(right: 25),
                   child: Image.asset(
                     'images/logo.png',
