@@ -36,7 +36,44 @@ class ButtonSportart extends StatelessWidget {
   }
 }
 
-// Button Für die Positionen Fußball
+// Button Anmeldung
+
+class ButtonAnmeldung extends StatelessWidget {
+  final String bezeichnungButton;
+  ButtonAnmeldung(this.bezeichnungButton);
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Container(
+          //margin: EdgeInsets.only(top: 5, bottom: 5),
+          width: 260,
+          child: RaisedButton(
+            onPressed: () {},
+            child: Text(
+              bezeichnungButton,
+              style:
+                  TextStyle(color: Theme.of(context).accentColor, fontSize: 18),
+            ),
+            color: Colors.white,
+            splashColor: Theme.of(context).accentColor,
+            elevation: 10,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20.0),
+              side: BorderSide(
+                width: 1.5,
+                color: Theme.of(context).accentColor,
+              ),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/* // Button Für die Positionen Fußball
 
 class ButtonPosFussball extends StatelessWidget {
   final String titel;
@@ -75,3 +112,4 @@ class ButtonPosFussball extends StatelessWidget {
     );
   }
 }
+ */
