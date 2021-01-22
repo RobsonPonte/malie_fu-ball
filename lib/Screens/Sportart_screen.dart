@@ -6,7 +6,7 @@ class SportartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      //backgroundColor: Colors.white,
       //Scrollt aktuell noch in die Stautsleiste vom Handy
       body: Container(
         child: ListView(

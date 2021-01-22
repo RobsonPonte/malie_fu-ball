@@ -17,7 +17,7 @@ class WillkommenScreen extends StatelessWidget {
               ),
             ),
           ),
-          Container(),
+          Container(), // Willkommmenstext muss noch eingefügt werden!!!
         ],
       ),
     );
