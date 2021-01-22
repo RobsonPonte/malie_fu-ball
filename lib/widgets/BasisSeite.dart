@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 //Seite für Start mit Großem Logo (Blau) und Hintergrund (Weiß) für Anmeldung
 
-class BasisSeite extends StatelessWidget {
+class BasisSeiteGross extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

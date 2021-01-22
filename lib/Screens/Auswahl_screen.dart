@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/widgets/BasisSeite.dart';
 
 // Auswahl Spieler, Club, Personal
@@ -15,7 +14,7 @@ class AuswahlScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          BasisSeite(),
+          BasisSeiteGross(),
           Expanded(
             child: Container(
               child: Column(

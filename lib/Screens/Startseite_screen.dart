@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Screens/Auswahl_screen.dart';
 
 class StartseiteScreen extends StatelessWidget {
   //Button "Letsgo"

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:malie/widgets/BasisSeite.dart';
 import 'package:malie/widgets/Button.dart';
 
+// Link zu AGB etc. fehlt noch zudem Anmeldung Facebook etc.
+
 class Anmeldung1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -9,7 +11,7 @@ class Anmeldung1 extends StatelessWidget {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          BasisSeite(),
+          BasisSeiteGross(),
           Expanded(
             child: Container(
               child: Column(

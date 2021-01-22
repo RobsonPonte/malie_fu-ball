@@ -11,7 +11,7 @@ class SportartScreen extends StatelessWidget {
       body: Container(
         child: ListView(
           children: [
-            BasisSeite(),
+            BasisSeiteGross(),
             Container(
               margin: EdgeInsets.only(top: 30, bottom: 30),
               child: Text(
