@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:malie/Data/fussball_data.dart';
+import 'package:malie/widgets/AppBarPositionen.dart';
 import 'package:malie/widgets/category_item.dart';
+import 'package:malie/widgets/speichern_button.dart';
 
 //Für Auswahl der Positionen
 
@@ -11,25 +13,7 @@ class PositionFussball extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Row(
-          children: [
-            Container(
-              margin: EdgeInsets.only(right: 15),
-              height: 45,
-              width: 45,
-              child: Image.asset('images/logo.png'),
-            ),
-            Text(
-              'fussball',
-              style: TextStyle(
-                fontFamily: 'Segoesc',
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-                color: Theme.of(context).primaryColor,
-              ),
-            )
-          ],
-        ),
+        title: AppBarPositionen('fussball'),
       ),
       body: Column(
         children: [
@@ -97,22 +81,7 @@ class PositionFussball extends StatelessWidget {
           ),
           Container(
             margin: EdgeInsets.only(bottom: 10),
-            child: Column(
-              children: [
-                RaisedButton(
-                  onPressed: () {},
-                  child: Text(
-                    'speichern',
-                    style: TextStyle(color: Colors.white, fontSize: 20),
-                  ),
-                  color: Theme.of(context).primaryColor,
-                  elevation: 10,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20.0),
-                  ),
-                ),
-              ],
-            ),
+            child: Speichern(),
           ),
         ],
       ),
