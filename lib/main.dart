@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         accentColor: Color.fromRGBO(8, 86, 133, 1), //Dunkelblau
         //buttonColor: Color.fromRGBO(8, 86, 133, 1),
         fontFamily: 'Berlin Sans FB',
+        bottomAppBarColor: Colors.white,
       ),
       home: PositionFussball(),
       routes: {

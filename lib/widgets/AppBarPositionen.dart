@@ -21,7 +21,7 @@ class AppBarPositionen extends StatelessWidget {
             fontFamily: 'Segoesc',
             fontSize: 25,
             fontWeight: FontWeight.bold,
-            color: Theme.of(context).primaryColor,
+            color: Colors.white,
           ),
         )
       ],
