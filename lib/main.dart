@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
+import 'package:malie/Screens/Startseite_screen.dart';
 import 'Positionen/Fussball_screen.dart';
 
 void main() => runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'malie',
       theme: ThemeData(
-        primaryColor: Color.fromRGBO(91, 154, 193, 1), //Blau (logo)
+        primaryColor: Colors.amber,
         accentColor: Color.fromRGBO(8, 86, 133, 1), //Dunkelblau
         //buttonColor: Color.fromRGBO(8, 86, 133, 1),
         fontFamily: 'Berlin Sans FB',
