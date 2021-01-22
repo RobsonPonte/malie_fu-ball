@@ -3,6 +3,7 @@ import 'package:malie/Positionen/Fussball_screen.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/Screens/Startseite_screen.dart';
+import 'package:malie/Screens/Willkommmen_screen.dart';
 import 'Screens/Anmeldung_screen.dart';
 
 void main() => runApp(MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: PositionFussball(),
+      home: WillkommenScreen(),
       routes: {
         '/Auswahl': (ctx) => AuswahlScreen(),
         '/Sportart': (ctx) => SportartScreen(),
