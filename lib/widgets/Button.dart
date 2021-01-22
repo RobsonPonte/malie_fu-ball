@@ -73,6 +73,42 @@ class ButtonAnmeldung extends StatelessWidget {
   }
 }
 
+// Button für die Auswahl Spieler, Verein, Personal
+
+class ButtonAuswahl extends StatelessWidget {
+  final String titel;
+  final Color color;
+
+  ButtonAuswahl(this.titel, this.color);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 260,
+      child: RaisedButton(
+        elevation: 10,
+        onPressed: () {},
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+                colors: [color.withOpacity(0.7), color],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight),
+            borderRadius: BorderRadius.circular(20.0),
+          ),
+          child: Text(
+            titel,
+            style: TextStyle(
+              fontSize: 25,
+              color: Colors.white,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 /* // Button Für die Positionen Fußball
 
 class ButtonPosFussball extends StatelessWidget {
