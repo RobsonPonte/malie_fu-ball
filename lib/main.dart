@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Positionen/Fussball_screen.dart';
+import 'package:malie/Positionen_screens/Fussball_screen.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Geschlecht_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
