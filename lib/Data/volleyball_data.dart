@@ -1,5 +1,5 @@
-/* import 'package:flutter/material.dart';
-
+import 'package:flutter/material.dart';
+import 'package:malie/models/category.dart';
 
 const VOLLEYBALL_POSITIONEN = const [
   Category(
@@ -20,16 +20,16 @@ const VOLLEYBALL_POSITIONEN = const [
   Category(
     id: 'vb4',
     title: 'zuspieler',
-    color: Color.fromRGBO(14, 209, 149, 1),
+    color: Color.fromRGBO(12, 160, 183, 1),
   ),
-    Category(
+  Category(
     id: 'vb5',
     title: 'libero',
-    color: Color.fromRGBO(14, 209, 149, 1),
+    color: Color.fromRGBO(91, 154, 193, 1),
   ),
-      Category(
+  Category(
     id: 'vb6',
     title: 'universalspieler',
-    color: Color.fromRGBO(14, 209, 149, 1),
+    color: Color.fromRGBO(8, 86, 133, 1),
   ),
-  ]; */
+];
