@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: GeschlechtScreen(),
+      home: StartseiteScreen(),
       routes: {
         '/Auswahl': (ctx) => AuswahlScreen(),
         '/Sportart': (ctx) => SportartScreen(),

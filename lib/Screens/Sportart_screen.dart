@@ -15,7 +15,7 @@ class SportartScreen extends StatelessWidget {
             Container(
               margin: EdgeInsets.only(top: 30, bottom: 30),
               child: Text(
-                '...und hier bin ich zuhause:',
+                'das ist meine sportart:',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 25),
               ),
@@ -26,6 +26,7 @@ class SportartScreen extends StatelessWidget {
             ButtonSportart('volleyball'),
             ButtonSportart('eishockey'),
             ButtonSportart('feldhockey'),
+            ButtonSportart('football'),
             ButtonSportart('rugby'),
             ButtonSportart('tennis'),
             Container(
