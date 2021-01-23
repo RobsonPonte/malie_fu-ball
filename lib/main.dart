@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:malie/Positionen_screens/Fussball_screen.dart';
+import 'package:malie/Positionen_screens/Handball.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Geschlecht_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: PositionFussball(),
+      home: PositionHandball(),
       routes: {
         '/Auswahl': (ctx) => AuswahlScreen(),
         '/Sportart': (ctx) => SportartScreen(),
