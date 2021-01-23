@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:malie/Data/eishockey_data.dart';
+import 'package:malie/Data/basketball_data.dart';
 import 'package:malie/widgets/AppBarPositionen.dart';
 import 'package:malie/widgets/category_item.dart';
 import 'package:malie/widgets/speichern_button.dart';
 
-class PositionEishockey extends StatelessWidget {
+class PositionBasketball extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: AppBarPositionen('eishockey'),
+        title: AppBarPositionen('basketball'),
       ),
       body: Column(
         children: [
@@ -29,7 +29,7 @@ class PositionEishockey extends StatelessWidget {
               margin: EdgeInsets.only(right: 15, left: 15, top: 15),
               child: GridView(
                 physics: NeverScrollableScrollPhysics(),
-                children: EISHOCKEY_POSITIONEN
+                children: BASKETBALL_POSITIONEN
                     .map(
                       (catData) => AllgemeinItem(
                         catData.title,
