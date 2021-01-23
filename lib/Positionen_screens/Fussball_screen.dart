@@ -5,8 +5,6 @@ import 'package:malie/widgets/AppBarPositionen.dart';
 import 'package:malie/widgets/category_item.dart';
 import 'package:malie/widgets/speichern_button.dart';
 
-//Für Auswahl der Positionen
-
 class PositionFussball extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
