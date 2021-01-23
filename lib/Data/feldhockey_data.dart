@@ -1,25 +1,25 @@
 /* import 'package:flutter/material.dart';
 
 
-const VEREIN_POSITIONEN = const [
+const FELDHOCKEY_POSITIONEN = const [
   Category(
-    id: 'v1',
-    title: '1. abteilungsleiter',
+    id: 'fh1',
+    title: 'torwart',
     color: Colors.amber,
   ),
   Category(
-    id: 'v2',
-    title: '2. abteilungsleiter',
+    id: 'fh2',
+    title: 'verteidiger',
     color: Color.fromRGBO(14, 209, 149, 1),
   ),
   Category(
-    id: 'v3',
-    title: 'sportdirektor',
+    id: 'fh3',
+    title: 'mittelfeld',
     color: Color.fromRGBO(14, 209, 149, 1),
   ),
   Category(
-    id: 'v4',
-    title: 'vereinsverwalter',
+    id: 'fh4',
+    title: 'angriff',
     color: Color.fromRGBO(14, 209, 149, 1),
   ),
   ]; */

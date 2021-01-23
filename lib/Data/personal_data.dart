@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 /* 
-const PERSONAL_CATEGORIES = const [
+const PERSONAL_POSITIONEN = const [
   Category(
     id: 'p1',
     title: 'trainer',

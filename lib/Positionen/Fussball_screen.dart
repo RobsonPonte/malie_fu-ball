@@ -31,7 +31,7 @@ class PositionFussball extends StatelessWidget {
             margin: EdgeInsets.all(15),
             child: GridView(
               physics: NeverScrollableScrollPhysics(),
-              children: DUMMY_CATEGORIES
+              children: FUSSBALL_HAUPTPOSITIONEN
                   .map(
                     (catData) => CategoryItem(
                       catData.title,
@@ -62,14 +62,15 @@ class PositionFussball extends StatelessWidget {
             margin: EdgeInsets.all(15),
             child: GridView(
               physics: NeverScrollableScrollPhysics(),
-              children: DUMMY_CATEGORIES
-                  .map(
-                    (catData) => CategoryItem(
-                      catData.title,
-                      catData.color,
-                    ),
-                  )
-                  .toList(),
+              children:
+                  FUSSBALL_HAUPTPOSITIONEN // muss noch in Nebenpositionen geändert werden
+                      .map(
+                        (catData) => CategoryItem(
+                          catData.title,
+                          catData.color,
+                        ),
+                      )
+                      .toList(),
               gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                 maxCrossAxisExtent: 60,
                 childAspectRatio: 3 / 2,
