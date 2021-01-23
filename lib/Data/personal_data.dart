@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 /* 
 const PERSONAL_POSITIONEN = const [
   Category(
@@ -57,4 +55,32 @@ const PERSONAL_POSITIONEN = const [
     title: 'sportdirektor',
     color: Color.fromRGBO(8, 86, 133, 1),
   ),
-]; */
+
+
+
+];
+
+const PERSONAL_FOOTBALLPOSITIONEN = const [
+  Category(
+    id: 'pf1',
+    title: 'head coach',
+    color: Colors.amber,
+  ),
+  Category(
+    id: 'pf2',
+    title: 'defense coordiantor',
+    color: Color.fromRGBO(14, 209, 149, 1),
+  ),
+  Category(
+    id: 'pf3',
+    title: 'offense coordinator',
+    color: Color.fromRGBO(14, 209, 149, 1),
+  ),
+  Category(
+    id: 'pf4',
+    title: 'special teams coordinator',
+    color: Color.fromRGBO(14, 209, 149, 1),
+  ),
+  
+  ];
+   */
