@@ -32,7 +32,7 @@ class SportartScreen extends StatelessWidget {
             Container(
               margin: EdgeInsets.only(left: 50, top: 20),
               child: Text(
-                '*weitere Sportarten folgen in kürze!',
+                '*weitere Sportarten folgen!',
                 style: TextStyle(fontSize: 15),
               ),
             ),
