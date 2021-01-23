@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:malie/Positionen_screens/Feldhockey_screen.dart';
+import 'package:malie/Positionen_screens/Tennis_screen.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
 
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: PositionFeldhockey(),
+      home: PositionTennis(),
       routes: {
         '/Auswahl': (ctx) => AuswahlScreen(),
         '/Sportart': (ctx) => SportartScreen(),
