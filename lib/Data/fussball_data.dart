@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:malie/models/category.dart';
 
-// 1.Fußball
 const FUSSBALL_HAUPTPOSITIONEN = const [
   Category(
     id: 'f1',

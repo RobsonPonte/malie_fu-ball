@@ -33,7 +33,7 @@ class PositionFussball extends StatelessWidget {
               physics: NeverScrollableScrollPhysics(),
               children: FUSSBALL_HAUPTPOSITIONEN
                   .map(
-                    (catData) => CategoryItem(
+                    (catData) => FussballItem(
                       catData.title,
                       catData.color,
                     ),
@@ -65,7 +65,7 @@ class PositionFussball extends StatelessWidget {
               children:
                   FUSSBALL_HAUPTPOSITIONEN // muss noch in Nebenpositionen geändert werden
                       .map(
-                        (catData) => CategoryItem(
+                        (catData) => FussballItem(
                           catData.title,
                           catData.color,
                         ),
