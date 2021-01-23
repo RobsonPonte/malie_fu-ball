@@ -31,7 +31,7 @@ class PositionHandball extends StatelessWidget {
               physics: NeverScrollableScrollPhysics(),
               children: HANDBALL_ANGRIFFPOSITONEN
                   .map(
-                    (catData) => FussballItem(
+                    (catData) => AllgemeinItem(
                       catData.title,
                       catData.color,
                     ),
@@ -62,7 +62,7 @@ class PositionHandball extends StatelessWidget {
               physics: NeverScrollableScrollPhysics(),
               children: HANDBALL_ABWEHRPOSITONEN
                   .map(
-                    (catData) => FussballItem(
+                    (catData) => AllgemeinItem(
                       catData.title,
                       catData.color,
                     ),

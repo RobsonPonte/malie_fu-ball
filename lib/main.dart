@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: PositionHandball(),
+      home: PositionFussball(),
       routes: {
         '/Auswahl': (ctx) => AuswahlScreen(),
         '/Sportart': (ctx) => SportartScreen(),
