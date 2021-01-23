@@ -10,7 +10,7 @@ class PositionTennis extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: AppBarPositionen('feldhockey'),
+        title: AppBarPositionen('tennis'),
       ),
       body: Column(
         children: [

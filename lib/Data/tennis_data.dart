@@ -14,7 +14,7 @@ const TENNIS_POSITIONEN = const [
   ),
   Category(
     id: 't3',
-    title: 'beides',
+    title: 'einzel & doppel',
     color: Color.fromRGBO(8, 86, 133, 1),
   ),
 ];
