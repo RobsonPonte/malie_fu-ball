@@ -5,7 +5,7 @@ import 'package:malie/widgets/AppBarPositionen.dart';
 import 'package:malie/widgets/category_item.dart';
 import 'package:malie/widgets/speichern_button.dart';
 
-class PositionPersonal extends StatelessWidget {
+class PositionFootballPersonal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -30,7 +30,7 @@ class PositionPersonal extends StatelessWidget {
               margin: EdgeInsets.only(right: 15, left: 15, top: 15),
               child: GridView(
                 physics: NeverScrollableScrollPhysics(),
-                children: PERSONAL_POSITIONEN
+                children: PERSONAL_FOOTBALLPOSITIONEN
                     .map(
                       (catData) => AllgemeinItem(
                         catData.title,
@@ -40,7 +40,7 @@ class PositionPersonal extends StatelessWidget {
                     .toList(),
                 gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                   maxCrossAxisExtent: 150,
-                  childAspectRatio: 5 / 1,
+                  childAspectRatio: 7 / 2,
                   crossAxisSpacing: 15,
                   mainAxisSpacing: 15,
                 ),
