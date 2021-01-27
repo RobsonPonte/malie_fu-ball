@@ -3,6 +3,7 @@ import 'package:malie/Anmeldung_Screens/Anmeldung_handy_screen.dart';
 import 'package:malie/Positionen_screens/Basketball_screen.dart';
 import 'package:malie/Positionen_screens/Eishockey_screen.dart';
 import 'package:malie/Positionen_screens/Feldhockey_screen.dart';
+import 'package:malie/Positionen_screens/Football_screen.dart';
 import 'package:malie/Positionen_screens/Fussball_screen.dart';
 import 'package:malie/Positionen_screens/Handball_screen.dart';
 import 'package:malie/Positionen_screens/Personal_screen.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: EmailScreen(),
+      home: PositionFootball(),
       routes: {
         '/Anmeldung': (ctx) => Anmeldung1(),
         '/Willkommen': (ctx) => WillkommenScreen(),
