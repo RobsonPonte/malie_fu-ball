@@ -1,9 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:malie/Data/personal_data.dart';
+import 'package:malie/Positionen_screens/Basketball_screen.dart';
+import 'package:malie/Positionen_screens/Eishockey_screen.dart';
+import 'package:malie/Positionen_screens/Feldhockey_screen.dart';
+import 'package:malie/Positionen_screens/Fussball_screen.dart';
+import 'package:malie/Positionen_screens/Handball_screen.dart';
 import 'package:malie/Positionen_screens/Personal_screen.dart';
+import 'package:malie/Positionen_screens/Rugby_screen.dart';
 import 'package:malie/Positionen_screens/Tennis_screen.dart';
+import 'package:malie/Positionen_screens/Volleyball_screen.dart';
+import 'package:malie/Screens/Anmeldung_screen.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
+import 'package:malie/Screens/Geschlecht_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
+import 'package:malie/Screens/Startseite_screen.dart';
+import 'package:malie/Screens/Willkommmen_screen.dart';
 
 import 'Positionen_screens/Personal_Football_screen.dart';
 import 'Positionen_screens/Verein_screen.dart';
@@ -23,10 +34,25 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: PositionFootballPersonal(),
+      home: WillkommenScreen(),
       routes: {
+        '/Anmeldung': (ctx) => Anmeldung1(),
+        '/Willkommen': (ctx) => WillkommenScreen(),
+        '/Geschlecht': (ctx) => GeschlechtScreen(),
         '/Auswahl': (ctx) => AuswahlScreen(),
         '/Sportart': (ctx) => SportartScreen(),
+        '/PositionVerein': (ctx) => PositionVerein(),
+        '/PositionPersonal': (ctx) => PositionPersonal(),
+        '/PositionPersonalFootball': (ctx) => PositionFootballPersonal(),
+        '/PositionFussball': (ctx) => PositionFussball(),
+        '/PositionHandball': (ctx) => PositionHandball(),
+        '/PositionBasketball': (ctx) => PositionBasketball(),
+        '/PositionVolleyball': (ctx) => PositionVolleyball(),
+        '/PositionEishockey': (ctx) => PositionEishockey(),
+        '/PositionFeldhockey': (ctx) => PositionFeldhockey(),
+        '/PositionRugby': (ctx) => PositionRugy(),
+        //'/PositionFootball': (ctx) => PositionFoot(),
+        '/PositionTennis': (ctx) => PositionTennis(),
       },
     );
   }

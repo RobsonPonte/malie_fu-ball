@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class StartseiteScreen extends StatelessWidget {
   //Button "Letsgo"
   void letsgo(BuildContext ctx) {
-    Navigator.of(ctx).pushNamed('/Auswahl');
+    Navigator.of(ctx).pushNamed('/Anmeldung');
   }
 
   @override

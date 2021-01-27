@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:malie/widgets/BasisSeite.dart';
 
 class GeschlechtScreen extends StatelessWidget {
+  void geschlechtbutton(BuildContext ctx) {
+    Navigator.of(ctx).pushNamed('/Auswahl');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +28,7 @@ class GeschlechtScreen extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () {},
+                      onPressed: () => geschlechtbutton(context),
                       child: Text(
                         'männlich',
                         style: TextStyle(
@@ -42,7 +46,7 @@ class GeschlechtScreen extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () {},
+                      onPressed: () => geschlechtbutton(context),
                       child: Text(
                         'weiblich',
                         style: TextStyle(
