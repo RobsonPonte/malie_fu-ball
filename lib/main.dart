@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:malie/Anmeldung_Screens/Anmeldung_handy_screen.dart';
 import 'package:malie/Positionen_screens/Basketball_screen.dart';
 import 'package:malie/Positionen_screens/Eishockey_screen.dart';
 import 'package:malie/Positionen_screens/Feldhockey_screen.dart';
@@ -12,6 +13,8 @@ import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Geschlecht_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/Screens/Willkommmen_screen.dart';
+import 'Anmeldung_Screens/Anmeldung_SMS_screen.dart';
+import 'Anmeldung_Screens/Anmeldung_Standort_screen.dart';
 import 'Anmeldung_Screens/Anmeldung_screen.dart';
 import 'Positionen_screens/Personal_Football_screen.dart';
 import 'Positionen_screens/Verein_screen.dart';
@@ -31,7 +34,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: WillkommenScreen(),
+      home: StandortScreen(),
       routes: {
         '/Anmeldung': (ctx) => Anmeldung1(),
         '/Willkommen': (ctx) => WillkommenScreen(),
