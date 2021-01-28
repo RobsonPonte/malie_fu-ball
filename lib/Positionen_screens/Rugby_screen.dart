@@ -5,7 +5,7 @@ import 'package:malie/widgets/AppBarPositionen.dart';
 import 'package:malie/widgets/category_item.dart';
 import 'package:malie/widgets/speichern_button.dart';
 
-class PositionRugy extends StatelessWidget {
+class PositionRugby extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
