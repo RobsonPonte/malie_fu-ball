@@ -54,6 +54,9 @@ flutter:
     - images/User.png
     - images/Einstellungen.png
     - images/Standort.png
+    - images/Bild_Rahmen.png
+    - images/Profilbild.png
+    - images/Vereinslogo.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

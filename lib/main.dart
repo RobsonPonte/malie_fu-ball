@@ -11,6 +11,7 @@ import 'package:malie/Positionen_screens/Tennis_screen.dart';
 import 'package:malie/Positionen_screens/Volleyball_screen.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Geschlecht_screen.dart';
+import 'package:malie/Screens/Profil_Spieler_Personal.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/Screens/Willkommmen_screen.dart';
 import 'Anmeldung_Screens/Anmeldung_Email_screen.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: PositionRugby(),
+      home: ProfilSpielerPersonal(),
       routes: {
         '/Anmeldung': (ctx) => Anmeldung1(),
         '/Willkommen': (ctx) => WillkommenScreen(),
