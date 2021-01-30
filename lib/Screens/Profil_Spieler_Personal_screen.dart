@@ -51,13 +51,43 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  margin: EdgeInsets.only(top: 20),
-                  alignment: Alignment.center,
-                  height: 220,
-                  width: 220,
-                  child: Image.asset(
-                    'images/Profilbild.png',
-                    fit: BoxFit.cover,
+                  height: 245,
+                  width: 245,
+                  child: Stack(
+                    alignment: Alignment.center,
+                    children: <Widget>[
+                      Container(
+                        alignment: Alignment.center,
+                        height: 220,
+                        width: 220,
+                        child: Image.asset(
+                          'images/Profilbild.png',
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                      Positioned(
+                        bottom: 0,
+                        right: 0,
+                        child: Container(
+                            child: ClipOval(
+                          child: Material(
+                            color: Colors.amber[300],
+                            child: InkWell(
+                              splashColor: Colors.white,
+                              child: SizedBox(
+                                  width: 50,
+                                  height: 50,
+                                  child: Icon(
+                                    Icons.add,
+                                    color: Colors.white,
+                                    size: 30,
+                                  )),
+                              onTap: () {},
+                            ),
+                          ),
+                        )),
+                      ),
+                    ],
                   ),
                 ),
               ],
