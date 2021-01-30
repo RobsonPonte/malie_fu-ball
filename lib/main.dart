@@ -12,6 +12,7 @@ import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Geschlecht_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
 import 'package:malie/Screens/Willkommmen_screen.dart';
+import 'package:malie/widgets/AppBar_Allgemein.dart';
 import 'Anmeldung_Screens/Anmeldung_screen.dart';
 import 'Positionen_screens/Personal_Football_screen.dart';
 import 'Positionen_screens/Verein_screen.dart';
