@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:malie/widgets/AppBar_Allgemein.dart';
 
 // Navigation Icon zu Seiten fehlt noch
 // Icon NavBar ohne Text; oder eigene Icon verwenden
@@ -16,32 +17,7 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            IconButton(
-              icon: Icon(Icons.person),
-              onPressed: () {},
-              color: Colors.white,
-              iconSize: 40,
-            ),
-            Text(
-              'malie',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 30,
-                fontFamily: 'Segoesc',
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            IconButton(
-              icon: Icon(Icons.tune),
-              onPressed: () {},
-              color: Colors.white,
-              iconSize: 38,
-            ),
-          ],
-        ),
+        title: AppBarAllgemein(),
       ),
       body: Container(
         child: Column(
