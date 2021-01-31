@@ -28,3 +28,32 @@ class AppBarPositionen extends StatelessWidget {
     );
   }
 }
+
+class AppBarAngaben extends StatelessWidget {
+  final String titel;
+
+  AppBarAngaben(this.titel);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Container(
+          margin: EdgeInsets.only(right: 15),
+          height: 45,
+          width: 45,
+          child: Image.asset('images/logo.png'),
+        ),
+        Text(
+          titel,
+          style: TextStyle(
+            fontFamily: 'Segoesc',
+            fontSize: 23,
+            //fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        )
+      ],
+    );
+  }
+}
