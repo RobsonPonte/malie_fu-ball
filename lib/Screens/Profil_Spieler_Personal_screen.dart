@@ -27,7 +27,7 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  height: 245,
+                  height: 265,
                   width: 245,
                   child: Stack(
                     alignment: Alignment.center,
@@ -105,7 +105,7 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(bottom: 20),
+              margin: EdgeInsets.only(bottom: 30),
               child: SizedBox(
                 width: 260,
                 child: RaisedButton(

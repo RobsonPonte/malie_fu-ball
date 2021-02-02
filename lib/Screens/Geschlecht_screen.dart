@@ -22,7 +22,7 @@ class GeschlechtScreen extends StatelessWidget {
                     'Ich bin:',
                     style: TextStyle(
                       fontSize: 25,
-                      //fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   SizedBox(

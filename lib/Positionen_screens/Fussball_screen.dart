@@ -54,30 +54,32 @@ class PositionFussball extends StatelessWidget {
               style: TextStyle(fontSize: 22),
             ),
           ),
-          Container(
-            height: 160,
-            //color: Colors.red,
-            margin: EdgeInsets.all(15),
-            child: GridView(
-              physics: NeverScrollableScrollPhysics(),
-              children: FUSSBALL_NEBENPOSITIONEN
-                  .map(
-                    (catData) => AllgemeinItem(
-                      catData.title,
-                      catData.color,
-                    ),
-                  )
-                  .toList(),
-              gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-                maxCrossAxisExtent: 60,
-                childAspectRatio: 3 / 2,
-                crossAxisSpacing: 15,
-                mainAxisSpacing: 15,
+          Expanded(
+            child: Container(
+              height: 160,
+              //color: Colors.red,
+              margin: EdgeInsets.all(15),
+              child: GridView(
+                physics: NeverScrollableScrollPhysics(),
+                children: FUSSBALL_NEBENPOSITIONEN
+                    .map(
+                      (catData) => AllgemeinItem(
+                        catData.title,
+                        catData.color,
+                      ),
+                    )
+                    .toList(),
+                gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                  maxCrossAxisExtent: 60,
+                  childAspectRatio: 3 / 2,
+                  crossAxisSpacing: 15,
+                  mainAxisSpacing: 15,
+                ),
               ),
             ),
           ),
           Container(
-            margin: EdgeInsets.only(bottom: 10),
+            margin: EdgeInsets.only(bottom: 20),
             child: Speichern(),
           ),
         ],

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:malie/Positionen_screens/Basketball_screen.dart';
 import 'package:malie/Positionen_screens/Eishockey_screen.dart';
 import 'package:malie/Positionen_screens/Feldhockey_screen.dart';
+import 'package:malie/Positionen_screens/Football_screen.dart';
 import 'package:malie/Positionen_screens/Fussball_screen.dart';
 import 'package:malie/Positionen_screens/Handball_screen.dart';
 import 'package:malie/Positionen_screens/Personal_screen.dart';
@@ -10,7 +11,9 @@ import 'package:malie/Positionen_screens/Tennis_screen.dart';
 import 'package:malie/Positionen_screens/Volleyball_screen.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
 import 'package:malie/Screens/Geschlecht_screen.dart';
+import 'package:malie/Screens/Profil_Spieler_Personal_screen.dart';
 import 'package:malie/Screens/Sportart_screen.dart';
+import 'package:malie/Screens/Startseite_screen.dart';
 import 'package:malie/Screens/Willkommmen_screen.dart';
 import 'Anmeldung_Screens/Anmeldung_screen.dart';
 import 'Eingabe_Screens/Angaben_Spieler_screen.dart';
@@ -32,7 +35,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: AngabenPersonSpielerPersonal(),
+      home: ProfilSpielerPersonal(),
       routes: {
         '/Anmeldung': (ctx) => Anmeldung1(),
         '/Willkommen': (ctx) => WillkommenScreen(),

@@ -48,7 +48,7 @@ class PositionPersonal extends StatelessWidget {
             ),
           ),
           Container(
-            margin: EdgeInsets.only(bottom: 10),
+            margin: EdgeInsets.only(bottom: 20),
             child: Speichern(),
           ),
         ],

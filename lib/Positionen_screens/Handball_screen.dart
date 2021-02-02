@@ -54,30 +54,32 @@ class PositionHandball extends StatelessWidget {
               style: TextStyle(fontSize: 22),
             ),
           ),
-          Container(
-            height: 180,
-            //color: Colors.red,
-            margin: EdgeInsets.all(15),
-            child: GridView(
-              physics: NeverScrollableScrollPhysics(),
-              children: HANDBALL_ABWEHRPOSITONEN
-                  .map(
-                    (catData) => AllgemeinItem(
-                      catData.title,
-                      catData.color,
-                    ),
-                  )
-                  .toList(),
-              gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-                maxCrossAxisExtent: 150,
-                childAspectRatio: 5 / 1,
-                crossAxisSpacing: 15,
-                mainAxisSpacing: 15,
+          Expanded(
+            child: Container(
+              height: 180,
+              //color: Colors.red,
+              margin: EdgeInsets.all(15),
+              child: GridView(
+                physics: NeverScrollableScrollPhysics(),
+                children: HANDBALL_ABWEHRPOSITONEN
+                    .map(
+                      (catData) => AllgemeinItem(
+                        catData.title,
+                        catData.color,
+                      ),
+                    )
+                    .toList(),
+                gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                  maxCrossAxisExtent: 150,
+                  childAspectRatio: 5 / 1,
+                  crossAxisSpacing: 15,
+                  mainAxisSpacing: 15,
+                ),
               ),
             ),
           ),
           Container(
-            margin: EdgeInsets.only(bottom: 0),
+            margin: EdgeInsets.only(bottom: 20),
             child: Speichern(),
           ),
         ],

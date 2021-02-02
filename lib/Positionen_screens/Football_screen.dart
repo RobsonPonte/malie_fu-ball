@@ -86,30 +86,32 @@ class PositionFootball extends StatelessWidget {
               style: TextStyle(fontSize: 22),
             ),
           ),
-          Container(
-            height: 50,
-            //color: Colors.red,
-            margin: EdgeInsets.all(15),
-            child: GridView(
-              physics: NeverScrollableScrollPhysics(),
-              children: FOOTBALL_SPECIALTEAMSPOSITIONEN
-                  .map(
-                    (catData) => AllgemeinItem(
-                      catData.title,
-                      catData.color,
-                    ),
-                  )
-                  .toList(),
-              gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-                maxCrossAxisExtent: 50,
-                childAspectRatio: 2 / 2,
-                crossAxisSpacing: 15,
-                mainAxisSpacing: 15,
+          Expanded(
+            child: Container(
+              height: 50,
+              //color: Colors.red,
+              margin: EdgeInsets.all(15),
+              child: GridView(
+                physics: NeverScrollableScrollPhysics(),
+                children: FOOTBALL_SPECIALTEAMSPOSITIONEN
+                    .map(
+                      (catData) => AllgemeinItem(
+                        catData.title,
+                        catData.color,
+                      ),
+                    )
+                    .toList(),
+                gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                  maxCrossAxisExtent: 50,
+                  childAspectRatio: 2 / 2,
+                  crossAxisSpacing: 15,
+                  mainAxisSpacing: 15,
+                ),
               ),
             ),
           ),
           Container(
-            margin: EdgeInsets.only(bottom: 10),
+            margin: EdgeInsets.only(bottom: 20),
             child: Speichern(),
           ),
         ],
