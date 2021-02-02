@@ -42,7 +42,7 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
                         ),
                       ),
                       Positioned(
-                        bottom: 0,
+                        bottom: 5,
                         right: 0,
                         child: Container(
                             child: ClipOval(
@@ -138,7 +138,7 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
         },
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.local_offer),
+            icon: Icon(Icons.change_history),
             title: Text('gold'), //title evtl. noch durch label ersetzen
           ),
           BottomNavigationBarItem(
@@ -147,7 +147,7 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.chat),
-            title: Text('Chat'),
+            title: Text('chat'),
           ),
         ],
       ),
