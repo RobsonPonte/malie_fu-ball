@@ -12,7 +12,7 @@ class AppBarAllgemein extends StatelessWidget {
           color: Colors.white,
           iconSize: 40,
         ),
-        Text(
+        const Text(
           'malie',
           style: TextStyle(
             color: Colors.white,

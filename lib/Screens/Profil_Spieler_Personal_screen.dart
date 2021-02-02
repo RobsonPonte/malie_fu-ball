@@ -138,7 +138,7 @@ class _ProfilSpielerPersonalState extends State<ProfilSpielerPersonal> {
         },
         items: [
           BottomNavigationBarItem(
-            icon: Icon(Icons.change_history),
+            icon: Icon(Icons.star_border_purple500_outlined),
             title: Text('gold'), //title evtl. noch durch label ersetzen
           ),
           BottomNavigationBarItem(
