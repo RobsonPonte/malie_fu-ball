@@ -30,7 +30,7 @@ class AuswahlScreen extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () => buttonSportart(context),
+                      onPressed: () {},
                       child: Text(
                         'sportler',
                         style: TextStyle(
@@ -48,7 +48,7 @@ class AuswahlScreen extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () => buttonSportart(context),
+                      onPressed: () {},
                       child: Text(
                         'personal',
                         style: TextStyle(
@@ -66,7 +66,7 @@ class AuswahlScreen extends StatelessWidget {
                   SizedBox(
                     width: 260,
                     child: RaisedButton(
-                      onPressed: () => buttonSportart(context),
+                      onPressed: () {},
                       child: Text(
                         'verein',
                         style: TextStyle(
