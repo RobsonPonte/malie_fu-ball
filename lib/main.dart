@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:malie/Eingabe_Screens/Angaben_Spieler_screen.dart';
 import 'package:malie/Positionen_screens/Fussball_screen.dart';
 import 'package:malie/Positionen_screens/Personal_screen.dart';
 import 'package:malie/Screens/Auswahl_screen.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         bottomAppBarColor: Colors.white,
         backgroundColor: Colors.white,
       ),
-      home: StartseiteScreen(),
+      home: AngabenPersonSpielerPersonal(),
       routes: {
         '/Anmeldung': (ctx) => Anmeldung1(),
         '/Willkommen': (ctx) => WillkommenScreen(),

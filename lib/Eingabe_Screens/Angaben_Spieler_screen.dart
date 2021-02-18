@@ -45,10 +45,6 @@ class AngabenPersonSpielerPersonal extends StatelessWidget {
             'deine handynummer',
           ),
           Eingabefeld(
-            'email*:',
-            'deine email-adresse',
-          ),
-          Eingabefeld(
             'nationalität:',
             '',
           ),
@@ -63,10 +59,6 @@ class AngabenPersonSpielerPersonal extends StatelessWidget {
           Eingabefeld(
             'fuß (links/rechts):',
             'mein starker fuß',
-          ),
-          Eingabefeld(
-            'hand (links/rechts):',
-            'meine wurfhand',
           ),
           Container(
             margin: EdgeInsets.only(
